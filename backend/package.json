@@ -1,0 +1,29 @@
+{
+	"name": "mission-p22",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js",
+		"build": "npm install --prefix ../client && npm run build --prefix ../client"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.7.9",
+		"body-parser": "^1.20.3",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.7",
+		"express": "^4.21.1",
+		"heic-convert": "^2.1.0",
+		"mongoose": "^8.8.3",
+		"multer": "^1.4.5-lts.1",
+		"socket.io": "^4.8.1"
+	},
+	"devDependencies": {
+		"@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+		"nodemon": "^3.1.7"
+	},
+	"description": ""
+}
